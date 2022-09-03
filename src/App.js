@@ -1,3 +1,5 @@
+// next vid 106
+
 import { Routes, Route } from "react-router-dom";
 
 import Navigation from "./routes/navigation/navigation.component";
