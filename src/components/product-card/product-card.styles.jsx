@@ -43,10 +43,16 @@ export const ProductCardContainer = styled.div`
 
     button {
       opacity: unset;
-    }
+      min-width: 120px;
+      width: auto;
+      height: 40px;
+      letter-spacing: 0.1px;
+      line-height: 40px;
+      opacity: unset;
+      padding: 0 20px 0 20px;
+    };
   }
-    }
-`;
+  }`
 
 export const Footer = styled.div`
   width: 100%;
