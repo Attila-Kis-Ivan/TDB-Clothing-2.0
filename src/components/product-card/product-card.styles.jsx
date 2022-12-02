@@ -4,9 +4,13 @@ export const ProductCardContainer = styled.div`
   width: 22vw;
   display: flex;
   flex-direction: column;
+ 
   height: 350px;
   align-items: center;
   position: relative;
+  align-items: center;
+  margin: auto;
+  
 
   img {
     width: 100%;
@@ -35,6 +39,7 @@ export const ProductCardContainer = styled.div`
   }
   @media screen and (max-width: 800px) {
       width: 40vw;
+      
 
       &:hover {
     img {
@@ -50,6 +55,7 @@ export const ProductCardContainer = styled.div`
       line-height: 40px;
       opacity: unset;
       padding: 0 20px 0 20px;
+   
     };
   }
   }`

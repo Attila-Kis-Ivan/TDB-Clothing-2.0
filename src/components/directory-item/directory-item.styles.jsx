@@ -70,4 +70,7 @@ export const DirectoryItemContainer = styled.div`
       height: 200px;  
     }
     
+    @media screen and (max-width: 800px){
+      height: 200px;
+    }
 `;

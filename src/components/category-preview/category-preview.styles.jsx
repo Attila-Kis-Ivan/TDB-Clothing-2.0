@@ -22,14 +22,18 @@ export const Title = styled(Link)`
 `;
 
 export const Preview = styled.div`
-  display: flex;
-  justify-content: space-between;
+  //display: flex;
+  //justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
 
   
   @media screen and (max-width: 800px) {
-    display: grid;
+    
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-column-gap: 15px;
+    grid-row-gap: 25px;
   }
 
 `;
